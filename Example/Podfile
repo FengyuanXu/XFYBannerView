@@ -1,0 +1,12 @@
+use_frameworks!
+
+target 'XFYBannerView_Example' do
+  pod 'XFYBannerView', :path => '../'
+  pod 'SDWebImage', '~> 4.0'
+  
+  target 'XFYBannerView_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

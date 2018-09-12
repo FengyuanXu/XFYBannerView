@@ -11,7 +11,7 @@ typedef void(^LoadImageBlock)(UIImageView *imageView, NSURL *url);
 
 @protocol XFYBannerViewDelegate <NSObject>
 
-- (void)bannerViewDidSelectedPicModel: (id <XFYBannerViewDelegate>)bannerViewModel;
+- (void)bannerViewDidSelectedPicModel: (id <XFYBannerViewModelProtocol>)bannerViewModel;
 
 @end
 
